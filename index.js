@@ -1,7 +1,6 @@
 function addition (a,b) {
     return a+b;
 }
-var number1 = 4;
-var number2 = 5;
-var add = parseInt(number1)+ parseInt(number2);
-prompt()
+var a = parseInt(prompt("Enter a number:"));
+var b = parseInt(prompt("enter the other number"));
+alert(addition(a,b));
